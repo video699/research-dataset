@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xsi:noNamespaceSchemaLocation="schema.xsd">
+  <xi:include href="PV211-D2-20160315.mp4/record.xml"/>
+</videos>
