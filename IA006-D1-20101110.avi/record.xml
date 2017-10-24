@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<video dirname="IA006-D1-20101110.avi"
+       uri="https://is.muni.cz/auth/el/1433/podzim2010/IA006/um/vi/?videomuni=IA006-D1-20101110.avi"
+       fps="15" frames="99050" width="720" height="576">
+  <frames>
+    <frame number="2000" filename="frame002000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-004</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-004</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="6000" filename="frame006000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-006</keyref>
+            <keyref similarity="full">slides01-007</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-006</keyref>
+            <keyref similarity="full">slides01-007</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="12000" filename="frame012000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-010</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-010</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="14000" filename="frame014000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-011</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-011</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="18000" filename="frame018000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-017</keyref>
+            <keyref similarity="full">slides01-018</keyref>
+            <keyref similarity="incremental">slides01-019</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-017</keyref>
+            <keyref similarity="full">slides01-018</keyref>
+            <keyref similarity="incremental">slides01-019</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="22000" filename="frame022000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-020</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-020</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="26000" filename="frame026000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-027</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-027</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="28000" filename="frame028000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-028</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-028</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="34000" filename="frame034000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-033</keyref>
+            <keyref similarity="full">slides01-034</keyref>
+            <keyref similarity="incremental">slides01-035</keyref>
+            <keyref similarity="incremental">slides01-036</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-033</keyref>
+            <keyref similarity="full">slides01-034</keyref>
+            <keyref similarity="incremental">slides01-035</keyref>
+            <keyref similarity="incremental">slides01-036</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="36000" filename="frame036000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-038</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-038</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="38000" filename="frame038000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-039</keyref>
+            <keyref similarity="incremental">slides01-040</keyref>
+            <keyref similarity="incremental">slides01-041</keyref>
+            <keyref similarity="incremental">slides01-042</keyref>
+            <keyref similarity="incremental">slides01-043</keyref>
+            <keyref similarity="incremental">slides01-044</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-039</keyref>
+            <keyref similarity="incremental">slides01-040</keyref>
+            <keyref similarity="incremental">slides01-041</keyref>
+            <keyref similarity="incremental">slides01-042</keyref>
+            <keyref similarity="incremental">slides01-043</keyref>
+            <keyref similarity="incremental">slides01-044</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="40000" filename="frame040000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-046</keyref>
+            <keyref similarity="full">slides01-047</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-046</keyref>
+            <keyref similarity="full">slides01-047</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="44000" filename="frame044000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-051</keyref>
+            <keyref similarity="incremental">slides01-052</keyref>
+            <keyref similarity="full">slides01-053</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-051</keyref>
+            <keyref similarity="incremental">slides01-052</keyref>
+            <keyref similarity="full">slides01-053</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="46000" filename="frame046000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-049</keyref>
+            <keyref similarity="full">slides01-050</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-049</keyref>
+            <keyref similarity="full">slides01-050</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="48000" filename="frame048000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-051</keyref>
+            <keyref similarity="incremental">slides01-052</keyref>
+            <keyref similarity="full">slides01-053</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-051</keyref>
+            <keyref similarity="incremental">slides01-052</keyref>
+            <keyref similarity="full">slides01-053</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="56000" filename="frame056000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-054</keyref>
+            <keyref similarity="incremental">slides01-055</keyref>
+            <keyref similarity="incremental">slides01-056</keyref>
+            <keyref similarity="full">slides01-057</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-054</keyref>
+            <keyref similarity="incremental">slides01-055</keyref>
+            <keyref similarity="incremental">slides01-056</keyref>
+            <keyref similarity="full">slides01-057</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="60000" filename="frame060000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-061</keyref>
+            <keyref similarity="full">slides01-062</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-061</keyref>
+            <keyref similarity="full">slides01-062</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="62000" filename="frame062000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-063</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-063</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="64000" filename="frame064000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-064</keyref>
+            <keyref similarity="full">slides01-065</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-064</keyref>
+            <keyref similarity="full">slides01-065</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="70000" filename="frame070000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-067</keyref>
+            <keyref similarity="incremental">slides01-068</keyref>
+            <keyref similarity="incremental">slides01-069</keyref>
+            <keyref similarity="incremental">slides01-070</keyref>
+            <keyref similarity="full">slides01-071</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-067</keyref>
+            <keyref similarity="incremental">slides01-068</keyref>
+            <keyref similarity="incremental">slides01-069</keyref>
+            <keyref similarity="incremental">slides01-070</keyref>
+            <keyref similarity="full">slides01-071</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="78000" filename="frame078000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-075</keyref>
+            <keyref similarity="incremental">slides01-076</keyref>
+            <keyref similarity="full">slides01-077</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-075</keyref>
+            <keyref similarity="incremental">slides01-076</keyref>
+            <keyref similarity="full">slides01-077</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="84000" filename="frame084000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-086</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-086</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="90000" filename="frame090000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-088</keyref>
+            <keyref similarity="incremental">slides01-089</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="full">slides01-088</keyref>
+            <keyref similarity="incremental">slides01-089</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="94000" filename="frame094000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-090</keyref>
+            <keyref similarity="incremental">slides01-091</keyref>
+            <keyref similarity="incremental">slides01-092</keyref>
+            <keyref similarity="incremental">slides01-093</keyref>
+            <keyref similarity="full">slides01-094</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-090</keyref>
+            <keyref similarity="incremental">slides01-091</keyref>
+            <keyref similarity="incremental">slides01-092</keyref>
+            <keyref similarity="incremental">slides01-093</keyref>
+            <keyref similarity="full">slides01-094</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+    <frame number="98000" filename="frame098000.png" vgg256="">
+      <screens>
+        <screen x0="17"  y0="27"
+                x1="304" y1="11"
+                x2="44"  y2="253"
+                x3="307" y3="243"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-097</keyref>
+            <keyref similarity="full">slides01-098</keyref>
+          </keyrefs>
+        </screen>
+        <screen x0="365" y0="13"
+                x1="652" y1="34"
+                x2="357" y2="245"
+                x3="625" y3="257"
+                vgg256=""
+                condition="pristine">
+          <keyrefs>
+            <keyref similarity="incremental">slides01-097</keyref>
+            <keyref similarity="full">slides01-098</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
+  </frames>
+  <documents>
+    <document filename="slides01.pdf">
+      <page key="slides01-001" number="1" vgg256=""/>
+      <page key="slides01-002" number="2" vgg256=""/>
+      <page key="slides01-003" number="3" vgg256=""/>
+      <page key="slides01-004" number="4" vgg256=""/>
+      <page key="slides01-005" number="5" vgg256=""/>
+      <page key="slides01-006" number="6" vgg256=""/>
+      <page key="slides01-007" number="7" vgg256=""/>
+      <page key="slides01-008" number="8" vgg256=""/>
+      <page key="slides01-009" number="9" vgg256=""/>
+      <page key="slides01-010" number="10" vgg256=""/>
+      <page key="slides01-011" number="11" vgg256=""/>
+      <page key="slides01-012" number="12" vgg256=""/>
+      <page key="slides01-013" number="13" vgg256=""/>
+      <page key="slides01-014" number="14" vgg256=""/>
+      <page key="slides01-015" number="15" vgg256=""/>
+      <page key="slides01-016" number="16" vgg256=""/>
+      <page key="slides01-017" number="17" vgg256=""/>
+      <page key="slides01-018" number="18" vgg256=""/>
+      <page key="slides01-019" number="19" vgg256=""/>
+      <page key="slides01-020" number="20" vgg256=""/>
+      <page key="slides01-021" number="21" vgg256=""/>
+      <page key="slides01-022" number="22" vgg256=""/>
+      <page key="slides01-023" number="23" vgg256=""/>
+      <page key="slides01-024" number="24" vgg256=""/>
+      <page key="slides01-025" number="25" vgg256=""/>
+      <page key="slides01-026" number="26" vgg256=""/>
+      <page key="slides01-027" number="27" vgg256=""/>
+      <page key="slides01-028" number="28" vgg256=""/>
+      <page key="slides01-029" number="29" vgg256=""/>
+      <page key="slides01-030" number="30" vgg256=""/>
+      <page key="slides01-031" number="31" vgg256=""/>
+      <page key="slides01-032" number="32" vgg256=""/>
+      <page key="slides01-033" number="33" vgg256=""/>
+      <page key="slides01-034" number="34" vgg256=""/>
+      <page key="slides01-035" number="35" vgg256=""/>
+      <page key="slides01-036" number="36" vgg256=""/>
+      <page key="slides01-037" number="37" vgg256=""/>
+      <page key="slides01-038" number="38" vgg256=""/>
+      <page key="slides01-039" number="39" vgg256=""/>
+      <page key="slides01-040" number="40" vgg256=""/>
+      <page key="slides01-041" number="41" vgg256=""/>
+      <page key="slides01-042" number="42" vgg256=""/>
+      <page key="slides01-043" number="43" vgg256=""/>
+      <page key="slides01-044" number="44" vgg256=""/>
+      <page key="slides01-045" number="45" vgg256=""/>
+      <page key="slides01-046" number="46" vgg256=""/>
+      <page key="slides01-047" number="47" vgg256=""/>
+      <page key="slides01-048" number="48" vgg256=""/>
+      <page key="slides01-049" number="49" vgg256=""/>
+      <page key="slides01-050" number="50" vgg256=""/>
+      <page key="slides01-051" number="51" vgg256=""/>
+      <page key="slides01-052" number="52" vgg256=""/>
+      <page key="slides01-053" number="53" vgg256=""/>
+      <page key="slides01-054" number="54" vgg256=""/>
+      <page key="slides01-055" number="55" vgg256=""/>
+      <page key="slides01-056" number="56" vgg256=""/>
+      <page key="slides01-057" number="57" vgg256=""/>
+      <page key="slides01-058" number="58" vgg256=""/>
+      <page key="slides01-059" number="59" vgg256=""/>
+      <page key="slides01-060" number="60" vgg256=""/>
+      <page key="slides01-061" number="61" vgg256=""/>
+      <page key="slides01-062" number="62" vgg256=""/>
+      <page key="slides01-063" number="63" vgg256=""/>
+      <page key="slides01-064" number="64" vgg256=""/>
+      <page key="slides01-065" number="65" vgg256=""/>
+      <page key="slides01-066" number="66" vgg256=""/>
+      <page key="slides01-067" number="67" vgg256=""/>
+      <page key="slides01-068" number="68" vgg256=""/>
+      <page key="slides01-069" number="69" vgg256=""/>
+      <page key="slides01-070" number="70" vgg256=""/>
+      <page key="slides01-071" number="71" vgg256=""/>
+      <page key="slides01-072" number="72" vgg256=""/>
+      <page key="slides01-073" number="73" vgg256=""/>
+      <page key="slides01-074" number="74" vgg256=""/>
+      <page key="slides01-075" number="75" vgg256=""/>
+      <page key="slides01-076" number="76" vgg256=""/>
+      <page key="slides01-077" number="77" vgg256=""/>
+      <page key="slides01-078" number="78" vgg256=""/>
+      <page key="slides01-079" number="79" vgg256=""/>
+      <page key="slides01-080" number="80" vgg256=""/>
+      <page key="slides01-081" number="81" vgg256=""/>
+      <page key="slides01-082" number="82" vgg256=""/>
+      <page key="slides01-083" number="83" vgg256=""/>
+      <page key="slides01-084" number="84" vgg256=""/>
+      <page key="slides01-085" number="85" vgg256=""/>
+      <page key="slides01-086" number="86" vgg256=""/>
+      <page key="slides01-087" number="87" vgg256=""/>
+      <page key="slides01-088" number="88" vgg256=""/>
+      <page key="slides01-089" number="89" vgg256=""/>
+      <page key="slides01-090" number="90" vgg256=""/>
+      <page key="slides01-091" number="91" vgg256=""/>
+      <page key="slides01-092" number="92" vgg256=""/>
+      <page key="slides01-093" number="93" vgg256=""/>
+      <page key="slides01-094" number="94" vgg256=""/>
+      <page key="slides01-095" number="95" vgg256=""/>
+      <page key="slides01-096" number="96" vgg256=""/>
+      <page key="slides01-097" number="97" vgg256=""/>
+      <page key="slides01-098" number="98" vgg256=""/>
+      <page key="slides01-099" number="99" vgg256=""/>
+      <page key="slides01-100" number="100" vgg256=""/>
+    </document>
+  </documents>
+</video>
