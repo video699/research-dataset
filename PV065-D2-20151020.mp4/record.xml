@@ -9,18 +9,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-05</keyref>
+            <keyref similarity="full">slides01-05</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-05</keyref>
+            <keyref similarity="full">slides01-05</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -31,20 +33,22 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-11</keyref>
-            <keyref>slides01-12</keyref>
+            <keyref similarity="incremental">slides01-11</keyref>
+            <keyref similarity="full">slides01-12</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-11</keyref>
-            <keyref>slides01-12</keyref>
+            <keyref similarity="incremental">slides01-11</keyref>
+            <keyref similarity="full">slides01-12</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -55,18 +59,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-14</keyref>
+            <keyref similarity="full">slides01-14</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-14</keyref>
+            <keyref similarity="full">slides01-14</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -77,18 +83,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-19</keyref>
+            <keyref similarity="full">slides01-19</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-19</keyref>
+            <keyref similarity="full">slides01-19</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -99,18 +107,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-20</keyref>
+            <keyref similarity="full">slides01-20</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-20</keyref>
+            <keyref similarity="full">slides01-20</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -121,20 +131,22 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-22</keyref>
-            <keyref>slides01-23</keyref>
+            <keyref similarity="full">slides01-22</keyref>
+            <keyref similarity="incremental">slides01-23</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-22</keyref>
-            <keyref>slides01-23</keyref>
+            <keyref similarity="full">slides01-22</keyref>
+            <keyref similarity="incremental">slides01-23</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -145,20 +157,22 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-24</keyref>
-            <keyref>slides01-25</keyref>
+            <keyref similarity="incremental">slides01-24</keyref>
+            <keyref similarity="full">slides01-25</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-24</keyref>
-            <keyref>slides01-25</keyref>
+            <keyref similarity="incremental">slides01-24</keyref>
+            <keyref similarity="full">slides01-25</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -169,18 +183,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-26</keyref>
+            <keyref similarity="full">slides01-26</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-26</keyref>
+            <keyref similarity="full">slides01-26</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -191,7 +207,8 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -199,7 +216,8 @@
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -211,18 +229,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-27</keyref>
+            <keyref similarity="full">slides01-27</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-27</keyref>
+            <keyref similarity="full">slides01-27</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -233,18 +253,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-28</keyref>
+            <keyref similarity="full">slides01-28</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-28</keyref>
+            <keyref similarity="full">slides01-28</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -255,18 +277,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-29</keyref>
+            <keyref similarity="full">slides01-29</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-29</keyref>
+            <keyref similarity="full">slides01-29</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -277,18 +301,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-30</keyref>
+            <keyref similarity="full">slides01-30</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-30</keyref>
+            <keyref similarity="full">slides01-30</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -299,7 +325,8 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -307,7 +334,8 @@
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -319,18 +347,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-31</keyref>
+            <keyref similarity="full">slides01-31</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-31</keyref>
+            <keyref similarity="full">slides01-31</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -341,18 +371,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-32</keyref>
+            <keyref similarity="full">slides01-32</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-32</keyref>
+            <keyref similarity="full">slides01-32</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -363,18 +395,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-33</keyref>
+            <keyref similarity="full">slides01-33</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-33</keyref>
+            <keyref similarity="full">slides01-33</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -385,18 +419,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-34</keyref>
+            <keyref similarity="full">slides01-34</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-34</keyref>
+            <keyref similarity="full">slides01-34</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -407,18 +443,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-35</keyref>
+            <keyref similarity="full">slides01-35</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-35</keyref>
+            <keyref similarity="full">slides01-35</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -429,18 +467,20 @@
                 x1="322" y1="32"
                 x2="324" y2="279"
                 x3="30"  y3="304"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-36</keyref>
+            <keyref similarity="full">slides01-36</keyref>
           </keyrefs>
         </screen>
         <screen x0="387" y0="33"
                 x1="641" y1="46"
                 x2="384" y2="275"
                 x3="623" y3="255"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-36</keyref>
+            <keyref similarity="full">slides01-36</keyref>
           </keyrefs>
         </screen>
       </screens>

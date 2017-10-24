@@ -9,7 +9,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -17,9 +18,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-03</keyref>
+            <keyref similarity="full">slides01-03</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -30,7 +32,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -38,9 +41,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-04</keyref>
+            <keyref similarity="incremental">slides01-04</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -51,7 +55,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -59,9 +64,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-05</keyref>
+            <keyref similarity="full">slides01-05</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -72,7 +78,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -80,9 +87,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-06</keyref>
+            <keyref similarity="full">slides01-06</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -93,7 +101,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -101,9 +110,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-07</keyref>
+            <keyref similarity="full">slides01-07</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -114,7 +124,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -122,9 +133,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-08</keyref>
+            <keyref similarity="full">slides01-08</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -135,7 +147,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -143,9 +156,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-10</keyref>
+            <keyref similarity="incremental">slides01-10</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -156,7 +170,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -164,9 +179,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-11</keyref>
+            <keyref similarity="incremental">slides01-11</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -177,7 +193,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -185,7 +202,8 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -197,7 +215,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -205,9 +224,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-12</keyref>
+            <keyref similarity="incremental">slides01-12</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -218,7 +238,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -226,9 +247,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-13</keyref>
+            <keyref similarity="incremental">slides01-13</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -239,7 +261,8 @@
                 x1="371" y1="4"
                 x2="36"  y2="295"
                 x3="375" y3="289"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
           </keyrefs>
         </screen>
@@ -247,9 +270,10 @@
                 x1="727" y1="5"
                 x2="378" y2="290"
                 x3="715" y3="284"
-                vgg256="">
+                vgg256=""
+                condition="pristine">
           <keyrefs>
-            <keyref>slides01-14</keyref>
+            <keyref similarity="full">slides01-14</keyref>
           </keyrefs>
         </screen>
       </screens>

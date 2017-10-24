@@ -187,7 +187,8 @@
         coordinates that specify the quadrilateral delineating the frame area
         occupied by the screen. Be aware that xi, yi may go beyond the video
         boundaries. The vgg256 attribute specifies feature vectors describing
-        the contents of the screen.
+        the contents of the screen. The condition attribute specifies the
+        condition of what is shown on the screen.
       </xs:documentation>
       <xs:documentation xml:lang="cs">
         Tento element obsahuje veškeré informace o jednom ozářeném projekčním
@@ -195,6 +196,8 @@
         i=0, 1, 2, 3, za dávají rohy čtyřúhelníku, který projekční plátno
         ohraničuje. Berte na vědomí, že souřadnice mohou přesahovat okraje
         videa. Atribut vgg256 zadává feature vektory popisující obsah plátna.
+        Atribut condition udává kvalitu toho, co je zobrazeno na ozářeném
+        projekčním plátně.
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
@@ -208,6 +211,7 @@
     <xs:attribute name="y2" type="xs:integer" use="required"/>
     <xs:attribute name="x3" type="xs:integer" use="required"/>
     <xs:attribute name="y3" type="xs:integer" use="required"/>
+    <xs:attribute name="condition" type="condition-type" use="required"/>
     <xs:attribute name="vgg256" type="feature-vector-type" use="required"/>
   </xs:complexType>
 
@@ -216,14 +220,14 @@
       <xs:documentation xml:lang="en">
         This element specifies the keys of all slides attached to the ancestor
         video that correspond to what is being shown on the ancestor screen in
-        the ancestor frame of a captured video. Note that there it is valid to
+        the ancestor frame of a captured video. Note that it is valid to
         specify no keyrefs. In that scenario, the screen displays a picture
         outside the slides. If several keyrefs are specified, the screen
-        display a picture that can be mapped to several slides.
+        displays a picture that can correspond to several slides.
       </xs:documentation>
       <xs:documentation xml:lang="cs">
         Tento element zadává veškeré klíče slajdů připojených k předkovskému
-        elementu video, které odpovídají tomu, co je v předkovském smínku
+        elementu video, které odpovídají tomu, co je v předkovském snímku
         videozáznamu zobrazeno na rodičovském ozářeném projekčním plátně. Pokud
         nejsou uvedeny žádné klíče, je na plátně zobrazen obsah mimo slajdy.
         Pokud je uvedeno klíčů více, existuje více sladů, které odpovídají
@@ -231,10 +235,109 @@
       </xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="keyref" type="xs:string"
+      <xs:element name="keyref" type="keyref-type"
                   minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
+
+  <xs:complexType name="keyref-type">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This element specifies a single key of a slide attached to the ancestor
+        video that corresponds to what is being shown on the ancestor screen in
+        the ancestor frame of a captured video. The similarity attribute
+        specifies the precise relationship between the slide and the frame.
+      </xs:documentation>
+      <xs:documentation xml:lang="cs">
+        Tento element zadává jeden klíč slajdu připojeného k předkovskému
+        elementu video, který odpovídá tomu, co je v předkovském snímku
+        videozáznamu zobrazeno na rodičovském ozářeném projekčním plátně.
+        Atribut similarity udává druh vztahu mezi slajdem a snímkem.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="similarity" type="similarity-type" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="similarity-type" final="restriction">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This attribute specifies the precise relationship between a slide
+        referenced by the parent keyref element and what is being shown on the
+        ancestor screen in the ancestor frame of a captured video.
+
+        The value of "full" specifies that there is a 1:1 correspondence
+        between the slide and the frame.
+
+        The value of "incremental" specifies that in a document attached to the
+        ancestor video, a single logical page is split across multiple physical
+        pages and incrementally uncovered; the slide and the frame correspond
+        to the same logical page, but not the same physical page.
+      </xs:documentation>
+      <xs:documentation xml:lang="cs">
+        Tento atribut udává druh vztahu mezi slajdem odkázaným z předkovského
+        elementu keyref a předkovským snímkem videozáznamu zobrazeném na
+        předkovském ozářeném projekčním plátně.
+
+        Hodnota "full" označuje úplnou shodu mezi slajdem a snímkem.
+
+        Hodnota "incremental" udává, že v dokumentu připojeném k předkovskému
+        videu je jedna logická stránka slajdů rozdělena na několik fyzických
+        stran s postupným odkrýváním obsahu; slajd a snímek zobrazují stejnou
+        logickou stranu, ale ne stejnou fyzickou stranu.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="full" />
+      <xs:enumeration value="incremental" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="condition-type" final="restriction">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This attribute specifies the condition of what is being shown at the
+        parent screen.
+
+        The value of "pristine" specifies that there is no significant
+        degradation beyond the photon noise.
+
+        The value of "windowed" specifies that a slide is being shown, but the
+        slide does not cover the full screen.
+
+        The value of "obstacle" specifies that a part of the screen or the
+        projector light is covered by a physical obstacle. You may wish to
+        check that the values of attributes x1, x2, x3, y1, y2, and y3 of
+        the parent screen are within the dimensions of the ancestor video.
+        Otherwise, a part of the screen is not recorded, which is a similar
+        condition.
+      </xs:documentation>
+      <xs:documentation xml:lang="cs">
+        Tento atribut udává kvalitu toho, co je zobrazeno na ozářeném
+        projekčním plátně.
+
+        Hodnota "pristine" udává, že nedošlo k významné degradaci s výjimkou
+        fotonového šumu.
+
+        Hodnota "windowed" udává, že je zobrazen slajd, ale nevyplňuje celou
+        plochu ozářeného projekčního plátna.
+
+        Hodnota "obstacle" udává, že část projekčního plátna, nebo čočky
+        projektoru je fyzicky zakryta. Pravděpodobně budete chtít kontrolovat,
+        že hodnota atributů x1, x2, x3, x4, y1, y2, y3 a y4 rodičovského
+        ozářeného projekčního plátna nepřesahuje rozměry předkovského videa.
+        V opačném případě část plátna není zaznamenána, což je podobný stav.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="pristine" />
+      <xs:enumeration value="windowed" />
+      <xs:enumeration value="obstacle" />
+    </xs:restriction>
+  </xs:simpleType>
 
   <xs:complexType name="page-type">
     <xs:annotation>
