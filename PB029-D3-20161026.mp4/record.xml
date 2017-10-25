@@ -63,6 +63,21 @@
         </screen>
       </screens>
     </frame>
+    <frame number="10000" filename="frame010000.png" vgg256="">
+      <screens>
+        <screen x0="176" y0="22"
+                x1="545" y1="20"
+                x2="188" y2="303"
+                x3="533" y3="303"
+                vgg256=""
+                condition="obstacle">
+          <keyrefs>
+            <keyref similarity="full">slides01-16</keyref>
+            <keyref similarity="incremental">slides01-17</keyref>
+          </keyrefs>
+        </screen>
+      </screens>
+    </frame>
     <frame number="12000" filename="frame012000.png" vgg256="">
       <screens>
         <screen x0="176" y0="22"
