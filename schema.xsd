@@ -309,11 +309,11 @@
         slide does not cover the full screen.
 
         The value of "obstacle" specifies that a part of the screen or the
-        projector light is covered by a physical obstacle. You may wish to
-        check that the values of attributes x1, x2, x3, y1, y2, and y3 of
-        the parent screen are within the dimensions of the ancestor video.
-        Otherwise, a part of the screen is not recorded, which is a similar
-        condition.
+        projector light is partially obscured by either a physical obstacle, or
+        by a different GUI window. You may wish to check that the values of
+        attributes x1, x2, x3, y1, y2, and y3 of the parent screen are within
+        the dimensions of the ancestor video.  Otherwise, a part of the screen
+        is not recorded, which is a similar condition.
       </xs:documentation>
       <xs:documentation xml:lang="cs">
         Tento atribut udává kvalitu toho, co je zobrazeno na ozářeném
@@ -326,10 +326,12 @@
         plochu ozářeného projekčního plátna.
 
         Hodnota "obstacle" udává, že část projekčního plátna, nebo čočky
-        projektoru je fyzicky zakryta. Pravděpodobně budete chtít kontrolovat,
-        že hodnota atributů x1, x2, x3, x4, y1, y2, y3 a y4 rodičovského
-        ozářeného projekčního plátna nepřesahuje rozměry předkovského videa.
-        V opačném případě část plátna není zaznamenána, což je podobný stav.
+        projektoru je buďto fyzicky zakryta, nebo že část obsahu zakrývá jiné
+        okno v rámci operačního systému. Pravděpodobně budete chtít
+        kontrolovat, že hodnota atributů x1, x2, x3, x4, y1, y2, y3 a y4
+        rodičovského ozářeného projekčního plátna nepřesahuje rozměry
+        předkovského videa.  V opačném případě část plátna není zaznamenána,
+        což je podobný stav.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
