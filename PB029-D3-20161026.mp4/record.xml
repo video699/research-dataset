@@ -154,7 +154,7 @@
     </frame>
     <frame number="24000" filename="frame024000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -167,7 +167,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -177,7 +177,7 @@
     </frame>
     <frame number="30000" filename="frame030000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -190,7 +190,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -200,7 +200,7 @@
     </frame>
     <frame number="40000" filename="frame040000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -213,7 +213,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -223,7 +223,7 @@
     </frame>
     <frame number="60000" filename="frame060000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -236,7 +236,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -246,7 +246,7 @@
     </frame>
     <frame number="62000" filename="frame062000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -259,7 +259,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -269,7 +269,7 @@
     </frame>
     <frame number="64000" filename="frame064000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -282,7 +282,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -292,7 +292,7 @@
     </frame>
     <frame number="66000" filename="frame066000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -305,7 +305,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -315,7 +315,7 @@
     </frame>
     <frame number="68000" filename="frame068000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -328,7 +328,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -338,7 +338,7 @@
     </frame>
     <frame number="78000" filename="frame078000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -350,7 +350,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -360,7 +360,7 @@
     </frame>
     <frame number="80000" filename="frame080000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -373,7 +373,7 @@
     </frame>
     <frame number="82000" filename="frame082000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -385,7 +385,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -396,7 +396,7 @@
     </frame>
     <frame number="84000" filename="frame084000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -408,7 +408,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
           <keyrefs>
@@ -419,7 +419,7 @@
     </frame>
     <frame number="86000" filename="frame086000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -431,7 +431,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
           <keyrefs>
@@ -442,7 +442,7 @@
     </frame>
     <frame number="88000" filename="frame088000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -454,7 +454,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -464,7 +464,7 @@
     </frame>
     <frame number="90000" filename="frame090000.png" vgg256="">
       <screens>
-        <screen x0="2"   y0="8"
+        <screen x0="2"   y0="28"
                 x1="369" y1="20"
                 x2="30"  y2="306"
                 x3="368" y3="306"
@@ -476,7 +476,7 @@
         <screen x0="378" y0="20"
                 x1="730" y1="24"
                 x2="388" y2="305"
-                x3="306" y3="303"
+                x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
           <keyrefs>
