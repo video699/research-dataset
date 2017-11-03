@@ -7,8 +7,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="obstacle">
           <keyrefs>
@@ -21,8 +21,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -35,8 +35,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -49,8 +49,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -63,8 +63,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -77,8 +77,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -91,8 +91,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -105,8 +105,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -119,8 +119,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -129,16 +129,16 @@
         </screen>
       </screens>
     </frame>
-    <frame number="38000" filename="frame038000.png" vgg256="">
+    <frame number="38000" filename="frame042000.png" vgg256="">
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
-            <keyref similarity="full">slides02-10</keyref>
+            <keyref similarity="full">slides02-12</keyref>
           </keyrefs>
         </screen>
       </screens>
@@ -147,8 +147,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -161,8 +161,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -175,8 +175,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -189,8 +189,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -203,8 +203,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -219,8 +219,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -233,8 +233,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -247,8 +247,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -261,8 +261,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -275,8 +275,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -289,8 +289,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -303,8 +303,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -316,8 +316,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -330,8 +330,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -344,8 +344,8 @@
       <screens>
         <screen x0="-4"  y0="48"
                 x1="321" y1="32"
-                x2="33"  y2="305"
-                x3="320" y3="280"
+                x2="31"  y2="303"
+                x3="320" y3="277"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
