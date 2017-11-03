@@ -264,10 +264,10 @@
                 vgg256=""
                 condition="pristine">
           <keyrefs>
-            <keyref similarity="full">slides01-039</keyref>
+            <keyref similarity="incremental">slides01-039</keyref>
             <keyref similarity="incremental">slides01-040</keyref>
             <keyref similarity="incremental">slides01-041</keyref>
-            <keyref similarity="incremental">slides01-042</keyref>
+            <keyref similarity="full">slides01-042</keyref>
             <keyref similarity="incremental">slides01-043</keyref>
             <keyref similarity="incremental">slides01-044</keyref>
           </keyrefs>
@@ -279,10 +279,10 @@
                 vgg256=""
                 condition="pristine">
           <keyrefs>
-            <keyref similarity="full">slides01-039</keyref>
+            <keyref similarity="incremental">slides01-039</keyref>
             <keyref similarity="incremental">slides01-040</keyref>
             <keyref similarity="incremental">slides01-041</keyref>
-            <keyref similarity="incremental">slides01-042</keyref>
+            <keyref similarity="full">slides01-042</keyref>
             <keyref similarity="incremental">slides01-043</keyref>
             <keyref similarity="incremental">slides01-044</keyref>
           </keyrefs>
@@ -326,7 +326,7 @@
           <keyrefs>
             <keyref similarity="full">slides01-051</keyref>
             <keyref similarity="incremental">slides01-052</keyref>
-            <keyref similarity="full">slides01-053</keyref>
+            <keyref similarity="incremental">slides01-053</keyref>
           </keyrefs>
         </screen>
         <screen x0="365" y0="13"
@@ -338,7 +338,7 @@
           <keyrefs>
             <keyref similarity="full">slides01-051</keyref>
             <keyref similarity="incremental">slides01-052</keyref>
-            <keyref similarity="full">slides01-053</keyref>
+            <keyref similarity="incremental">slides01-053</keyref>
           </keyrefs>
         </screen>
       </screens>
