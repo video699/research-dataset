@@ -347,17 +347,24 @@
         This element contains information about a single PDF document page. The
         key attribute uniquely identifies this slide in the context of the
         ancestor video, and the number attribute specifies the location of the
-        page in the PDF document. The vgg256 attribute specifies feature
-        vectors describing the stránku.
+        page in the PDF document. The filename attribute specifies the filename
+        of the rasterized image of the page assuming the current working
+        directory is the directory specified by the dirname attribute of the
+        ancestor video. The vgg256 attribute specifies feature vectors
+        describing the page.
       </xs:documentation>
       <xs:documentation xml:lang="cs">
         Tento element obsahuje veškeré informace o jedné stránce PDF dokumentu.
         Atribut key zadává unikátní identifikátor v rámci předkovského elementu
-        video, a atribut number zadává místo, kde se stránka v dokumentu
-        nachází. Atribut vgg256 zadává feature vektory popisující stránku.
+        video a atribut number zadává místo, kde se stránka v dokumentu
+        nachází. Atribut filename udává jméno s rasterizovaným obrázkem stránky
+        za předpokladu, že pracovním adresářem je adresář zadaný atributem
+        dirname předkovského elementu video. Atribut vgg256 zadává feature
+        vektory popisující stránku. 
       </xs:documentation>
     </xs:annotation>
     <xs:attribute name="key" type="xs:string" use="required"/>
+    <xs:attribute name="filename" type="xs:string" use="required"/>
     <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
     <xs:attribute name="vgg256" type="feature-vector-type" use="required"/>
   </xs:complexType>

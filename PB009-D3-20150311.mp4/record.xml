@@ -586,66 +586,66 @@
   </frames>
   <documents>
     <document filename="slides01.pdf">
-      <page key="slides01-01" number="1" vgg256=""/>
-      <page key="slides01-02" number="2" vgg256=""/>
-      <page key="slides01-03" number="3" vgg256=""/>
-      <page key="slides01-04" number="4" vgg256=""/>
-      <page key="slides01-05" number="5" vgg256=""/>
-      <page key="slides01-06" number="6" vgg256=""/>
-      <page key="slides01-07" number="7" vgg256=""/>
-      <page key="slides01-08" number="8" vgg256=""/>
-      <page key="slides01-09" number="9" vgg256=""/>
-      <page key="slides01-10" number="10" vgg256=""/>
-      <page key="slides01-11" number="11" vgg256=""/>
+      <page key="slides01-01" filename="slides01-01.png" number="1" vgg256=""/>
+      <page key="slides01-02" filename="slides01-02.png" number="2" vgg256=""/>
+      <page key="slides01-03" filename="slides01-03.png" number="3" vgg256=""/>
+      <page key="slides01-04" filename="slides01-04.png" number="4" vgg256=""/>
+      <page key="slides01-05" filename="slides01-05.png" number="5" vgg256=""/>
+      <page key="slides01-06" filename="slides01-06.png" number="6" vgg256=""/>
+      <page key="slides01-07" filename="slides01-07.png" number="7" vgg256=""/>
+      <page key="slides01-08" filename="slides01-08.png" number="8" vgg256=""/>
+      <page key="slides01-09" filename="slides01-09.png" number="9" vgg256=""/>
+      <page key="slides01-10" filename="slides01-10.png" number="10" vgg256=""/>
+      <page key="slides01-11" filename="slides01-11.png" number="11" vgg256=""/>
     </document>
     <document filename="slides02.pdf">
-      <page key="slides02-01" number="1" vgg256=""/>
-      <page key="slides02-02" number="2" vgg256=""/>
-      <page key="slides02-03" number="3" vgg256=""/>
-      <page key="slides02-04" number="4" vgg256=""/>
-      <page key="slides02-05" number="5" vgg256=""/>
-      <page key="slides02-06" number="6" vgg256=""/>
-      <page key="slides02-07" number="7" vgg256=""/>
-      <page key="slides02-08" number="8" vgg256=""/>
-      <page key="slides02-09" number="9" vgg256=""/>
-      <page key="slides02-10" number="10" vgg256=""/>
-      <page key="slides02-11" number="11" vgg256=""/>
-      <page key="slides02-12" number="12" vgg256=""/>
-      <page key="slides02-13" number="13" vgg256=""/>
-      <page key="slides02-14" number="14" vgg256=""/>
-      <page key="slides02-15" number="15" vgg256=""/>
-      <page key="slides02-16" number="16" vgg256=""/>
-      <page key="slides02-17" number="17" vgg256=""/>
-      <page key="slides02-18" number="18" vgg256=""/>
-      <page key="slides02-19" number="19" vgg256=""/>
-      <page key="slides02-20" number="20" vgg256=""/>
-      <page key="slides02-21" number="21" vgg256=""/>
-      <page key="slides02-22" number="22" vgg256=""/>
-      <page key="slides02-23" number="23" vgg256=""/>
-      <page key="slides02-24" number="24" vgg256=""/>
-      <page key="slides02-25" number="25" vgg256=""/>
-      <page key="slides02-26" number="26" vgg256=""/>
-      <page key="slides02-27" number="27" vgg256=""/>
-      <page key="slides02-28" number="28" vgg256=""/>
-      <page key="slides02-29" number="29" vgg256=""/>
-      <page key="slides02-30" number="30" vgg256=""/>
-      <page key="slides02-31" number="31" vgg256=""/>
-      <page key="slides02-32" number="32" vgg256=""/>
-      <page key="slides02-33" number="33" vgg256=""/>
-      <page key="slides02-34" number="34" vgg256=""/>
-      <page key="slides02-35" number="35" vgg256=""/>
-      <page key="slides02-36" number="36" vgg256=""/>
-      <page key="slides02-37" number="37" vgg256=""/>
-      <page key="slides02-38" number="38" vgg256=""/>
-      <page key="slides02-39" number="39" vgg256=""/>
-      <page key="slides02-40" number="40" vgg256=""/>
-      <page key="slides02-41" number="41" vgg256=""/>
-      <page key="slides02-42" number="42" vgg256=""/>
-      <page key="slides02-43" number="43" vgg256=""/>
-      <page key="slides02-44" number="44" vgg256=""/>
-      <page key="slides02-45" number="45" vgg256=""/>
-      <page key="slides02-46" number="46" vgg256=""/>
-      <page key="slides02-47" number="47" vgg256=""/>
+      <page key="slides02-01" filename="slides02-01.png" number="1" vgg256=""/>
+      <page key="slides02-02" filename="slides02-02.png" number="2" vgg256=""/>
+      <page key="slides02-03" filename="slides02-03.png" number="3" vgg256=""/>
+      <page key="slides02-04" filename="slides02-04.png" number="4" vgg256=""/>
+      <page key="slides02-05" filename="slides02-05.png" number="5" vgg256=""/>
+      <page key="slides02-06" filename="slides02-06.png" number="6" vgg256=""/>
+      <page key="slides02-07" filename="slides02-07.png" number="7" vgg256=""/>
+      <page key="slides02-08" filename="slides02-08.png" number="8" vgg256=""/>
+      <page key="slides02-09" filename="slides02-09.png" number="9" vgg256=""/>
+      <page key="slides02-10" filename="slides02-10.png" number="10" vgg256=""/>
+      <page key="slides02-11" filename="slides02-11.png" number="11" vgg256=""/>
+      <page key="slides02-12" filename="slides02-12.png" number="12" vgg256=""/>
+      <page key="slides02-13" filename="slides02-13.png" number="13" vgg256=""/>
+      <page key="slides02-14" filename="slides02-14.png" number="14" vgg256=""/>
+      <page key="slides02-15" filename="slides02-15.png" number="15" vgg256=""/>
+      <page key="slides02-16" filename="slides02-16.png" number="16" vgg256=""/>
+      <page key="slides02-17" filename="slides02-17.png" number="17" vgg256=""/>
+      <page key="slides02-18" filename="slides02-18.png" number="18" vgg256=""/>
+      <page key="slides02-19" filename="slides02-19.png" number="19" vgg256=""/>
+      <page key="slides02-20" filename="slides02-20.png" number="20" vgg256=""/>
+      <page key="slides02-21" filename="slides02-21.png" number="21" vgg256=""/>
+      <page key="slides02-22" filename="slides02-22.png" number="22" vgg256=""/>
+      <page key="slides02-23" filename="slides02-23.png" number="23" vgg256=""/>
+      <page key="slides02-24" filename="slides02-24.png" number="24" vgg256=""/>
+      <page key="slides02-25" filename="slides02-25.png" number="25" vgg256=""/>
+      <page key="slides02-26" filename="slides02-26.png" number="26" vgg256=""/>
+      <page key="slides02-27" filename="slides02-27.png" number="27" vgg256=""/>
+      <page key="slides02-28" filename="slides02-28.png" number="28" vgg256=""/>
+      <page key="slides02-29" filename="slides02-29.png" number="29" vgg256=""/>
+      <page key="slides02-30" filename="slides02-30.png" number="30" vgg256=""/>
+      <page key="slides02-31" filename="slides02-31.png" number="31" vgg256=""/>
+      <page key="slides02-32" filename="slides02-32.png" number="32" vgg256=""/>
+      <page key="slides02-33" filename="slides02-33.png" number="33" vgg256=""/>
+      <page key="slides02-34" filename="slides02-34.png" number="34" vgg256=""/>
+      <page key="slides02-35" filename="slides02-35.png" number="35" vgg256=""/>
+      <page key="slides02-36" filename="slides02-36.png" number="36" vgg256=""/>
+      <page key="slides02-37" filename="slides02-37.png" number="37" vgg256=""/>
+      <page key="slides02-38" filename="slides02-38.png" number="38" vgg256=""/>
+      <page key="slides02-39" filename="slides02-39.png" number="39" vgg256=""/>
+      <page key="slides02-40" filename="slides02-40.png" number="40" vgg256=""/>
+      <page key="slides02-41" filename="slides02-41.png" number="41" vgg256=""/>
+      <page key="slides02-42" filename="slides02-42.png" number="42" vgg256=""/>
+      <page key="slides02-43" filename="slides02-43.png" number="43" vgg256=""/>
+      <page key="slides02-44" filename="slides02-44.png" number="44" vgg256=""/>
+      <page key="slides02-45" filename="slides02-45.png" number="45" vgg256=""/>
+      <page key="slides02-46" filename="slides02-46.png" number="46" vgg256=""/>
+      <page key="slides02-47" filename="slides02-47.png" number="47" vgg256=""/>
     </document>
   </documents>
 </video>
