@@ -233,9 +233,9 @@
             <keyref similarity="full">slides02-07</keyref>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -256,9 +256,9 @@
             <keyref similarity="full">slides02-08</keyref>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -279,9 +279,9 @@
             <keyref similarity="full">slides02-10</keyref>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -302,9 +302,9 @@
             <keyref similarity="incremental">slides03-01</keyref>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -322,12 +322,12 @@
                 vgg256=""
                 condition="pristine">
           <keyrefs>
-            <keyref similarity="incremental">slides03-06</keyref>
+            <keyref similarity="full">slides03-06</keyref>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -347,9 +347,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -382,9 +382,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -405,9 +405,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
@@ -428,9 +428,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
@@ -451,9 +451,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="pristine">
@@ -473,9 +473,9 @@
           <keyrefs>
           </keyrefs>
         </screen>
-        <screen x0="378" y0="20"
+        <screen x0="370" y0="20"
                 x1="730" y1="24"
-                x2="388" y2="305"
+                x2="371" y2="304"
                 x3="706" y3="303"
                 vgg256=""
                 condition="windowed">
