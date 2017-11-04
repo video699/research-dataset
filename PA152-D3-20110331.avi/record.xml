@@ -5,7 +5,7 @@
   <frames>
     <frame number="2000" filename="frame002000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -19,7 +19,7 @@
     </frame>
     <frame number="4000" filename="frame004000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -33,7 +33,7 @@
     </frame>
     <frame number="6000" filename="frame006000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -47,7 +47,7 @@
     </frame>
     <frame number="8000" filename="frame008000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -61,7 +61,7 @@
     </frame>
     <frame number="10000" filename="frame010000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -75,7 +75,7 @@
     </frame>
     <frame number="12000" filename="frame012000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -89,7 +89,7 @@
     </frame>
     <frame number="14000" filename="frame014000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -103,7 +103,7 @@
     </frame>
     <frame number="16000" filename="frame016000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -117,7 +117,7 @@
     </frame>
     <frame number="20000" filename="frame020000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -131,7 +131,7 @@
     </frame>
     <frame number="22000" filename="frame022000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -146,7 +146,7 @@
     </frame>
     <frame number="24000" filename="frame024000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -160,7 +160,7 @@
     </frame>
     <frame number="26000" filename="frame026000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -174,7 +174,7 @@
     </frame>
     <frame number="34000" filename="frame034000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -188,7 +188,7 @@
     </frame>
     <frame number="36000" filename="frame036000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -202,7 +202,7 @@
     </frame>
     <frame number="38000" filename="frame038000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -216,7 +216,7 @@
     </frame>
     <frame number="40000" filename="frame040000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -230,7 +230,7 @@
     </frame>
     <frame number="44000" filename="frame044000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -244,7 +244,7 @@
     </frame>
     <frame number="50000" filename="frame050000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -258,7 +258,7 @@
     </frame>
     <frame number="54000" filename="frame054000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -272,7 +272,7 @@
     </frame>
     <frame number="58000" filename="frame058000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -286,7 +286,7 @@
     </frame>
     <frame number="60000" filename="frame060000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -300,7 +300,7 @@
     </frame>
     <frame number="64000" filename="frame064000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -314,7 +314,7 @@
     </frame>
     <frame number="66000" filename="frame066000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -328,7 +328,7 @@
     </frame>
     <frame number="68000" filename="frame068000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
@@ -342,7 +342,7 @@
     </frame>
     <frame number="72000" filename="frame072000.png" vgg256="">
       <screens>
-        <screen x0="345" y0="14"
+        <screen x0="345" y0="16"
                 x1="704" y1="14"
                 x2="351" y2="300"
                 x3="686" y3="290"
