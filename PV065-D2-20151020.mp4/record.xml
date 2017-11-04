@@ -5,10 +5,10 @@
   <frames>
     <frame number="2000" filename="frame002000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
-                x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+        <screen x0="-10" y0="52"
+                x1="321" y1="33"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -29,10 +29,10 @@
     </frame>
     <frame number="4000" filename="frame004000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -55,10 +55,10 @@
     </frame>
     <frame number="6000" filename="frame006000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -79,10 +79,10 @@
     </frame>
     <frame number="8000" filename="frame008000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -103,10 +103,10 @@
     </frame>
     <frame number="10000" filename="frame010000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -127,10 +127,10 @@
     </frame>
     <frame number="14000" filename="frame014000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -153,10 +153,10 @@
     </frame>
     <frame number="24000" filename="frame024000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -179,10 +179,10 @@
     </frame>
     <frame number="28000" filename="frame028000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -203,10 +203,10 @@
     </frame>
     <frame number="36000" filename="frame036000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -225,10 +225,10 @@
     </frame>
     <frame number="38000" filename="frame038000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -249,10 +249,10 @@
     </frame>
     <frame number="40000" filename="frame040000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -273,10 +273,10 @@
     </frame>
     <frame number="50000" filename="frame050000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -297,10 +297,10 @@
     </frame>
     <frame number="52000" filename="frame052000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -321,10 +321,10 @@
     </frame>
     <frame number="54000" filename="frame054000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -343,10 +343,10 @@
     </frame>
     <frame number="56000" filename="frame056000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -367,10 +367,10 @@
     </frame>
     <frame number="58000" filename="frame058000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -391,10 +391,10 @@
     </frame>
     <frame number="62000" filename="frame062000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -415,10 +415,10 @@
     </frame>
     <frame number="74000" filename="frame074000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -439,10 +439,10 @@
     </frame>
     <frame number="76000" filename="frame076000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
@@ -463,10 +463,10 @@
     </frame>
     <frame number="78000" filename="frame078000.png" vgg256="">
       <screens>
-        <screen x0="-12" y0="46"
+        <screen x0="-10" y0="52"
                 x1="322" y1="32"
-                x2="324" y2="279"
-                x3="30"  y3="304"
+                x2="30"  y2="304"
+                x3="324" y3="279"
                 vgg256=""
                 condition="pristine">
           <keyrefs>
