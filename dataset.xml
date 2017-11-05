@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <videos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:xi="http://www.w3.org/2001/XInclude"
-        xsi:noNamespaceSchemaLocation="schema.xsd">
-  <xi:include href="IA006-D1-20101110.avi/record.xml"/>
-  <xi:include href="IB111-D1-20151211.mp4/record.xml"/>
-  <xi:include href="IV109-D2-20160406.mp4/record.xml"/>
-  <xi:include href="MA010-D1-20151015.mp4/record.xml"/>
-  <xi:include href="MB103-D1-20161122.mp4/record.xml"/>
-  <xi:include href="PA103-D2-20150324.mp4/record.xml"/>
-  <xi:include href="PA152-D3-20110331.avi/record.xml"/>
-  <xi:include href="PA159-D1-20121004.avi/record.xml"/>
-  <xi:include href="PB001-D1-20121016.avi/record.xml"/>
-  <xi:include href="PB009-D3-20150311.mp4/record.xml"/>
-  <xi:include href="PB029-D3-20161026.mp4/record.xml"/>
-  <xi:include href="PB069-D2-20140305.mp4/record.xml"/>
-  <xi:include href="PB156-D1-20130312.avi/record.xml"/>
-  <xi:include href="PV065-D2-20151020.mp4/record.xml"/>
-  <xi:include href="PV112-D2-20130311.avi/record.xml"/>
-  <xi:include href="PV189-D1-20120221.avi/record.xml"/>
-  <xi:include href="PV211-D2-20160315.mp4/record.xml"/>
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xsi:noNamespaceSchemaLocation="schema.xsd">
+  <xi:include href="IA006-D1-20101110.avi/record.xml" />
+  <xi:include href="IB111-D1-20151211.mp4/record.xml" />
+  <xi:include href="IV109-D2-20160406.mp4/record.xml" />
+  <xi:include href="MA010-D1-20151015.mp4/record.xml" />
+  <xi:include href="MB103-D1-20161122.mp4/record.xml" />
+  <xi:include href="PA103-D2-20150324.mp4/record.xml" />
+  <xi:include href="PA152-D3-20110331.avi/record.xml" />
+  <xi:include href="PA159-D1-20121004.avi/record.xml" />
+  <xi:include href="PB001-D1-20121016.avi/record.xml" />
+  <xi:include href="PB009-D3-20150311.mp4/record.xml" />
+  <xi:include href="PB029-D3-20161026.mp4/record.xml" />
+  <xi:include href="PB069-D2-20140305.mp4/record.xml" />
+  <xi:include href="PB156-D1-20130312.avi/record.xml" />
+  <xi:include href="PV065-D2-20151020.mp4/record.xml" />
+  <xi:include href="PV112-D2-20130311.avi/record.xml" />
+  <xi:include href="PV189-D1-20120221.avi/record.xml" />
+  <xi:include href="PV211-D2-20160315.mp4/record.xml" />
 </videos>

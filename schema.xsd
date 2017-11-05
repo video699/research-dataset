@@ -1,338 +1,314 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
-
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+  schemaLocation="http://www.w3.org/2001/03/xml.xsd" />
   <xs:element name="videos">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This is the root element that contains information about a
-        random sample of videos captured at the Faculty of Informatics
-        at the Masaryk University, Brno, Czech Republic during 2010–2016.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Toto je kořenový element, který obsahuje veškeré informace o
-        náhodném výběru přednášek zaznamenaných během let 2010–2016 na
-        Fakultě informatiky Masarykovy univerzity v Brně.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This is the root element that
+      contains information about a random sample of videos captured
+      at the Faculty of Informatics at the Masaryk University,
+      Brno, Czech Republic during 2010–2016.</xs:documentation>
+      <xs:documentation xml:lang="cs">Toto je kořenový element,
+      který obsahuje veškeré informace o náhodném výběru přednášek
+      zaznamenaných během let 2010–2016 na Fakultě informatiky
+      Masarykovy univerzity v Brně.</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="video" type="video-type"
-                    minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="video" type="video-type" minOccurs="0"
+        maxOccurs="unbounded">
           <xs:key name="slide-keys">
-            <xs:selector xpath="./documents/document/page"/>
-            <xs:field xpath="@key"/>
+            <xs:selector xpath="./documents/document/page" />
+            <xs:field xpath="@key" />
           </xs:key>
           <xs:keyref name="frame-keyrefs" refer="slide-keys">
-            <xs:selector xpath="./frames/frame/screens/screen/keyrefs/keyref"/>
-            <xs:field xpath="."/>
-          </xs:keyref> 
+            <xs:selector xpath="./frames/frame/screens/screen/keyrefs/keyref" />
+            <xs:field xpath="." />
+          </xs:keyref>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  
   <xs:complexType name="video-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element represents a captured video. An information about the
-        directory containing files related to the captured video is given by
-        the dirname attribute, and an URI pointing to the captured video file
-        is given by the uri attribute. The fps, frames, width, and height
-        attributes specify additional information about the framerate of the
-        video in frames per second, the total number of frames (which, combined
-        with the previous information gives the total duration in seconds), and
-        the video width and height in pixels.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element představuje zaznamenané video. Název adresáře
-        obsahujícího další soubory související s videem je zadán atributem
-        dirname a URI ukazující na video je zadáno atributem uri. Atributy
-        fps, frames, width a height potom zadávají informace o počtu snímků za
-        sekundu, celkovém počtu snímků (a tedy s předchozí informací informaci
-        o délce videa v sekundách), šířce videa v pixelech a výšce videa v
-        pixelech.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element represents a
+      captured video. An information about the directory containing
+      files related to the captured video is given by the dirname
+      attribute, and an URI pointing to the captured video file is
+      given by the uri attribute. The fps, frames, width, and
+      height attributes specify additional information about the
+      framerate of the video in frames per second, the total number
+      of frames (which, combined with the previous information
+      gives the total duration in seconds), and the video width and
+      height in pixels.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element představuje
+      zaznamenané video. Název adresáře obsahujícího další soubory
+      související s videem je zadán atributem dirname a URI
+      ukazující na video je zadáno atributem uri. Atributy fps,
+      frames, width a height potom zadávají informace o počtu
+      snímků za sekundu, celkovém počtu snímků (a tedy s předchozí
+      informací informaci o délce videa v sekundách), šířce videa v
+      pixelech a výšce videa v pixelech.</xs:documentation>
     </xs:annotation>
     <xs:all>
       <xs:element name="frames" type="frames-type">
         <xs:unique name="frame-time">
-          <xs:selector xpath="./frame"/>
-          <xs:field xpath="@time"/>
+          <xs:selector xpath="./frame" />
+          <xs:field xpath="@time" />
         </xs:unique>
         <xs:unique name="frame-number">
-          <xs:selector xpath="./frame"/>
-          <xs:field xpath="@number"/>
+          <xs:selector xpath="./frame" />
+          <xs:field xpath="@number" />
         </xs:unique>
       </xs:element>
-      <xs:element name="documents" type="documents-type"/>
+      <xs:element name="documents" type="documents-type" />
     </xs:all>
-    <xs:attribute name="dirname" type="xs:string" use="required"/>
-    <xs:attribute name="uri" type="xs:anyURI" use="required"/>
-    <xs:attribute name="fps" type="xs:positiveInteger" use="required"/>
-    <xs:attribute name="frames" type="xs:positiveInteger" use="required"/>
-    <xs:attribute name="width" type="xs:positiveInteger" use="required"/>
-    <xs:attribute name="height" type="xs:positiveInteger" use="required"/>
-    <xs:attribute ref="xml:base"/>
+    <xs:attribute name="dirname" type="xs:string" use="required" />
+    <xs:attribute name="uri" type="xs:anyURI" use="required" />
+    <xs:attribute name="fps" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute name="frames" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute name="width" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute name="height" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute ref="xml:base" />
   </xs:complexType>
-
   <xs:complexType name="frames-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element represents a random sample of frames from the captured
-        video.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje náhodný výběr snímků videozáznamu.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element represents a
+      random sample of frames from the captured
+      video.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      náhodný výběr snímků videozáznamu.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="frame" type="frame-type"
-                  minOccurs="0" maxOccurs="25"/>
+      <xs:element name="frame" type="frame-type" minOccurs="0"
+      maxOccurs="25" />
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="documents-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about all PDF documents that
-        accompany a captured video.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje veškeré informace o PDF documentech, které
-        doprovází konkrétní videozáznam.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about all PDF documents that accompany a captured
+      video.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      veškeré informace o PDF documentech, které doprovází
+      konkrétní videozáznam.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
       <xs:element name="document" type="document-type"
-                  minOccurs="0" maxOccurs="unbounded"/>
+      minOccurs="0" maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="document-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about a single PDF document that
-        accompanies a captured video. The filename attribute specifies the
-        filename of the video frame with the slides assuming the current
-        working directory is the directory specified by the dirname attribute
-        of the ancestor video.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje veškeré informace o jednom PDF dokumentu, který
-        doprovází konkrétní videozáznam. Atribut filename zadává název souboru
-        se snímkem videozáznamu za předpokladu, že pracovním adresářem je
-        adresář zadaný atributem dirname předkovského elementu video.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about a single PDF document that accompanies a
+      captured video. The filename attribute specifies the filename
+      of the video frame with the slides assuming the current
+      working directory is the directory specified by the dirname
+      attribute of the ancestor video.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      veškeré informace o jednom PDF dokumentu, který doprovází
+      konkrétní videozáznam. Atribut filename zadává název souboru
+      se snímkem videozáznamu za předpokladu, že pracovním
+      adresářem je adresář zadaný atributem dirname předkovského
+      elementu video.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="page" type="page-type"
-                  minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="page" type="page-type" minOccurs="0"
+      maxOccurs="unbounded" />
     </xs:sequence>
-    <xs:attribute name="filename" type="xs:string" use="required"/>
+    <xs:attribute name="filename" type="xs:string"
+    use="required" />
   </xs:complexType>
-
   <xs:complexType name="frame-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about a single video frame. The
-        number attribute specifies the frame number, and the filename attribute
-        specifies the filename of the video frame with the slides assuming the
-        current working directory is the directory specified by the dirname
-        attribute of the ancestor video. Note that you can derive the time of
-        the frame by combining this information with the fps attribute of the
-        ancestor video. The vgg256 attribute specifies feature vectors
-        describing the entire frame.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje veškeré informace o jednom snímku videozáznamu.
-        Atribut number udává číslo snímku, což lze využít pro výpočet času
-        snímku s využitím atributu fps předkovského elementu video, a atribut
-        filename zadává název souboru se snímkem videozáznamu za předpokladu,
-        že pracovním adresářem je adresář zadaný atributem dirname předkovského
-        elementu video. Atribut vgg256 zadává feature vektory popisující celý
-        snímek videa.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about a single video frame. The number attribute
+      specifies the frame number, and the filename attribute
+      specifies the filename of the video frame with the slides
+      assuming the current working directory is the directory
+      specified by the dirname attribute of the ancestor video.
+      Note that you can derive the time of the frame by combining
+      this information with the fps attribute of the ancestor
+      video. The vgg256 attribute specifies feature vectors
+      describing the entire frame.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      veškeré informace o jednom snímku videozáznamu. Atribut
+      number udává číslo snímku, což lze využít pro výpočet času
+      snímku s využitím atributu fps předkovského elementu video, a
+      atribut filename zadává název souboru se snímkem videozáznamu
+      za předpokladu, že pracovním adresářem je adresář zadaný
+      atributem dirname předkovského elementu video. Atribut vgg256
+      zadává feature vektory popisující celý snímek
+      videa.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="screens" type="screens-type"/>
+      <xs:element name="screens" type="screens-type" />
     </xs:sequence>
-    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
-    <xs:attribute name="vgg256" type="feature-vector-type" use="required"/>
-    <xs:attribute name="filename" type="xs:string" use="required"/>
+    <xs:attribute name="number" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute name="vgg256" type="feature-vector-type"
+    use="required" />
+    <xs:attribute name="filename" type="xs:string"
+    use="required" />
   </xs:complexType>
-
   <xs:complexType name="screens-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about all lit screens that appear on
-        a single video frame.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje informace o všech ozářených projekčních plátnech,
-        která se nachází na jednom snímku videozáznamu.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about all lit screens that appear on a single
+      video frame.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      informace o všech ozářených projekčních plátnech, která se
+      nachází na jednom snímku videozáznamu.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="screen" type="screen-type"
-                  minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="screen" type="screen-type" minOccurs="0"
+      maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="screen-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about a single lit screen that
-        appears on a video frame. The xi, yi, i=0, 1, 2, 3, attributes are four
-        coordinates that specify the quadrilateral delineating the frame area
-        occupied by the screen. Be aware that xi, yi may go beyond the video
-        boundaries. The vgg256 attribute specifies feature vectors describing
-        the contents of the screen. The condition attribute specifies the
-        condition of what is shown on the screen.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje veškeré informace o jednom ozářeném projekčním
-        plátně, které se nachází na jednom snímku videozáznamu. Atributy xi, yi,
-        i=0, 1, 2, 3, za dávají rohy čtyřúhelníku, který projekční plátno
-        ohraničuje. Berte na vědomí, že souřadnice mohou přesahovat okraje
-        videa. Atribut vgg256 zadává feature vektory popisující obsah plátna.
-        Atribut condition udává kvalitu toho, co je zobrazeno na ozářeném
-        projekčním plátně.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about a single lit screen that appears on a video
+      frame. The xi, yi, i=0, 1, 2, 3, attributes are four
+      coordinates that specify the quadrilateral delineating the
+      frame area occupied by the screen. Be aware that xi, yi may
+      go beyond the video boundaries. The vgg256 attribute
+      specifies feature vectors describing the contents of the
+      screen. The condition attribute specifies the condition of
+      what is shown on the screen.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      veškeré informace o jednom ozářeném projekčním plátně, které
+      se nachází na jednom snímku videozáznamu. Atributy xi, yi,
+      i=0, 1, 2, 3, za dávají rohy čtyřúhelníku, který projekční
+      plátno ohraničuje. Berte na vědomí, že souřadnice mohou
+      přesahovat okraje videa. Atribut vgg256 zadává feature
+      vektory popisující obsah plátna. Atribut condition udává
+      kvalitu toho, co je zobrazeno na ozářeném projekčním
+      plátně.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="keyrefs" type="keyrefs-type"/>
+      <xs:element name="keyrefs" type="keyrefs-type" />
     </xs:sequence>
-    <xs:attribute name="x0" type="xs:integer" use="required"/>
-    <xs:attribute name="y0" type="xs:integer" use="required"/>
-    <xs:attribute name="x1" type="xs:integer" use="required"/>
-    <xs:attribute name="y1" type="xs:integer" use="required"/>
-    <xs:attribute name="x2" type="xs:integer" use="required"/>
-    <xs:attribute name="y2" type="xs:integer" use="required"/>
-    <xs:attribute name="x3" type="xs:integer" use="required"/>
-    <xs:attribute name="y3" type="xs:integer" use="required"/>
-    <xs:attribute name="condition" type="condition-type" use="required"/>
-    <xs:attribute name="vgg256" type="feature-vector-type" use="required"/>
+    <xs:attribute name="x0" type="xs:integer" use="required" />
+    <xs:attribute name="y0" type="xs:integer" use="required" />
+    <xs:attribute name="x1" type="xs:integer" use="required" />
+    <xs:attribute name="y1" type="xs:integer" use="required" />
+    <xs:attribute name="x2" type="xs:integer" use="required" />
+    <xs:attribute name="y2" type="xs:integer" use="required" />
+    <xs:attribute name="x3" type="xs:integer" use="required" />
+    <xs:attribute name="y3" type="xs:integer" use="required" />
+    <xs:attribute name="condition" type="condition-type"
+    use="required" />
+    <xs:attribute name="vgg256" type="feature-vector-type"
+    use="required" />
   </xs:complexType>
-
   <xs:complexType name="keyrefs-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element specifies the keys of all slides attached to the ancestor
-        video that correspond to what is being shown on the ancestor screen in
-        the ancestor frame of a captured video. Note that it is valid to
-        specify no keyrefs. In that scenario, the screen displays a picture
-        outside the slides. If several keyrefs are specified, the screen
-        displays a picture that can correspond to several slides.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element zadává veškeré klíče slajdů připojených k předkovskému
-        elementu video, které odpovídají tomu, co je v předkovském snímku
-        videozáznamu zobrazeno na rodičovském ozářeném projekčním plátně. Pokud
-        nejsou uvedeny žádné klíče, je na plátně zobrazen obsah mimo slajdy.
-        Pokud je uvedeno klíčů více, existuje více sladů, které odpovídají
-        obrazu na plátně.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element specifies the
+      keys of all slides attached to the ancestor video that
+      correspond to what is being shown on the ancestor screen in
+      the ancestor frame of a captured video. Note that it is valid
+      to specify no keyrefs. In that scenario, the screen displays
+      a picture outside the slides. If several keyrefs are
+      specified, the screen displays a picture that can correspond
+      to several slides.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element zadává veškeré
+      klíče slajdů připojených k předkovskému elementu video, které
+      odpovídají tomu, co je v předkovském snímku videozáznamu
+      zobrazeno na rodičovském ozářeném projekčním plátně. Pokud
+      nejsou uvedeny žádné klíče, je na plátně zobrazen obsah mimo
+      slajdy. Pokud je uvedeno klíčů více, existuje více sladů,
+      které odpovídají obrazu na plátně.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
-      <xs:element name="keyref" type="keyref-type"
-                  minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="keyref" type="keyref-type" minOccurs="0"
+      maxOccurs="unbounded" />
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="keyref-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element specifies a single key of a slide attached to the ancestor
-        video that corresponds to what is being shown on the ancestor screen in
-        the ancestor frame of a captured video. The similarity attribute
-        specifies the precise relationship between the slide and the frame.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element zadává jeden klíč slajdu připojeného k předkovskému
-        elementu video, který odpovídá tomu, co je v předkovském snímku
-        videozáznamu zobrazeno na rodičovském ozářeném projekčním plátně.
-        Atribut similarity udává druh vztahu mezi slajdem a snímkem.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element specifies a
+      single key of a slide attached to the ancestor video that
+      corresponds to what is being shown on the ancestor screen in
+      the ancestor frame of a captured video. The similarity
+      attribute specifies the precise relationship between the
+      slide and the frame.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element zadává jeden
+      klíč slajdu připojeného k předkovskému elementu video, který
+      odpovídá tomu, co je v předkovském snímku videozáznamu
+      zobrazeno na rodičovském ozářeném projekčním plátně. Atribut
+      similarity udává druh vztahu mezi slajdem a
+      snímkem.</xs:documentation>
     </xs:annotation>
     <xs:simpleContent>
       <xs:extension base="xs:string">
-        <xs:attribute name="similarity" type="similarity-type" use="required"/>
+        <xs:attribute name="similarity" type="similarity-type"
+        use="required" />
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-
   <xs:simpleType name="similarity-type" final="restriction">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This attribute specifies the precise relationship between a slide
-        referenced by the parent keyref element and what is being shown on the
-        ancestor screen in the ancestor frame of a captured video.
-
-        The value of "full" specifies that there is a 1:1 correspondence
-        between the slide and the frame.
-
-        The value of "incremental" specifies that in a document attached to the
-        ancestor video, a single logical page is split across multiple physical
-        pages and incrementally uncovered; the slide and the frame correspond
-        to the same logical page, but not the same physical page.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento atribut udává druh vztahu mezi slajdem odkázaným z předkovského
-        elementu keyref a předkovským snímkem videozáznamu zobrazeném na
-        předkovském ozářeném projekčním plátně.
-
-        Hodnota "full" označuje úplnou shodu mezi slajdem a snímkem.
-
-        Hodnota "incremental" udává, že v dokumentu připojeném k předkovskému
-        videu je jedna logická stránka slajdů rozdělena na několik fyzických
-        stran s postupným odkrýváním obsahu; slajd a snímek zobrazují stejnou
-        logickou stranu, ale ne stejnou fyzickou stranu.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This attribute specifies the
+      precise relationship between a slide referenced by the parent
+      keyref element and what is being shown on the ancestor screen
+      in the ancestor frame of a captured video. The value of
+      "full" specifies that there is a 1:1 correspondence between
+      the slide and the frame. The value of "incremental" specifies
+      that in a document attached to the ancestor video, a single
+      logical page is split across multiple physical pages and
+      incrementally uncovered; the slide and the frame correspond
+      to the same logical page, but not the same physical
+      page.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento atribut udává druh
+      vztahu mezi slajdem odkázaným z předkovského elementu keyref
+      a předkovským snímkem videozáznamu zobrazeném na předkovském
+      ozářeném projekčním plátně. Hodnota "full" označuje úplnou
+      shodu mezi slajdem a snímkem. Hodnota "incremental" udává, že
+      v dokumentu připojeném k předkovskému videu je jedna logická
+      stránka slajdů rozdělena na několik fyzických stran s
+      postupným odkrýváním obsahu; slajd a snímek zobrazují stejnou
+      logickou stranu, ale ne stejnou fyzickou
+      stranu.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:enumeration value="full" />
       <xs:enumeration value="incremental" />
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="condition-type" final="restriction">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This attribute specifies the condition of what is being shown at the
-        parent screen.
-
-        The value of "pristine" specifies that there is no significant
-        degradation beyond the photon noise.
-
-        The value of "windowed" specifies that a slide is being shown, but the
-        slide does not cover the full screen.
-
-        The value of "obstacle" specifies that a part of the screen or the
-        projector light is partially obscured by either a physical obstacle, or
-        by a different GUI window. You may wish to check that the values of
-        attributes x1, x2, x3, y1, y2, and y3 of the parent screen are within
-        the dimensions of the ancestor video.  Otherwise, a part of the screen
-        is not recorded, which is a similar condition.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento atribut udává kvalitu toho, co je zobrazeno na ozářeném
-        projekčním plátně.
-
-        Hodnota "pristine" udává, že nedošlo k významné degradaci s výjimkou
-        fotonového šumu.
-
-        Hodnota "windowed" udává, že je zobrazen slajd, ale nevyplňuje celou
-        plochu ozářeného projekčního plátna.
-
-        Hodnota "obstacle" udává, že část projekčního plátna, nebo čočky
-        projektoru je buďto fyzicky zakryta, nebo že část obsahu zakrývá jiné
-        okno v rámci operačního systému. Pravděpodobně budete chtít
-        kontrolovat, že hodnota atributů x1, x2, x3, x4, y1, y2, y3 a y4
-        rodičovského ozářeného projekčního plátna nepřesahuje rozměry
-        předkovského videa.  V opačném případě část plátna není zaznamenána,
-        což je podobný stav.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This attribute specifies the
+      condition of what is being shown at the parent screen. The
+      value of "pristine" specifies that there is no significant
+      degradation beyond the photon noise. The value of "windowed"
+      specifies that a slide is being shown, but the slide does not
+      cover the full screen. The value of "obstacle" specifies that
+      a part of the screen or the projector light is partially
+      obscured by either a physical obstacle, or by a different GUI
+      window. You may wish to check that the values of attributes
+      x1, x2, x3, y1, y2, and y3 of the parent screen are within
+      the dimensions of the ancestor video. Otherwise, a part of
+      the screen is not recorded, which is a similar
+      condition.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento atribut udává kvalitu
+      toho, co je zobrazeno na ozářeném projekčním plátně. Hodnota
+      "pristine" udává, že nedošlo k významné degradaci s výjimkou
+      fotonového šumu. Hodnota "windowed" udává, že je zobrazen
+      slajd, ale nevyplňuje celou plochu ozářeného projekčního
+      plátna. Hodnota "obstacle" udává, že část projekčního plátna,
+      nebo čočky projektoru je buďto fyzicky zakryta, nebo že část
+      obsahu zakrývá jiné okno v rámci operačního systému.
+      Pravděpodobně budete chtít kontrolovat, že hodnota atributů
+      x1, x2, x3, x4, y1, y2, y3 a y4 rodičovského ozářeného
+      projekčního plátna nepřesahuje rozměry předkovského videa. V
+      opačném případě část plátna není zaznamenána, což je podobný
+      stav.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
       <xs:enumeration value="pristine" />
@@ -340,57 +316,57 @@
       <xs:enumeration value="obstacle" />
     </xs:restriction>
   </xs:simpleType>
-
   <xs:complexType name="page-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This element contains information about a single PDF document page. The
-        key attribute uniquely identifies this slide in the context of the
-        ancestor video, and the number attribute specifies the location of the
-        page in the PDF document. The filename attribute specifies the filename
-        of the rasterized image of the page assuming the current working
-        directory is the directory specified by the dirname attribute of the
-        ancestor video. The vgg256 attribute specifies feature vectors
-        describing the page.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento element obsahuje veškeré informace o jedné stránce PDF dokumentu.
-        Atribut key zadává unikátní identifikátor v rámci předkovského elementu
-        video a atribut number zadává místo, kde se stránka v dokumentu
-        nachází. Atribut filename udává jméno s rasterizovaným obrázkem stránky
-        za předpokladu, že pracovním adresářem je adresář zadaný atributem
-        dirname předkovského elementu video. Atribut vgg256 zadává feature
-        vektory popisující stránku. 
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This element contains
+      information about a single PDF document page. The key
+      attribute uniquely identifies this slide in the context of
+      the ancestor video, and the number attribute specifies the
+      location of the page in the PDF document. The filename
+      attribute specifies the filename of the rasterized image of
+      the page assuming the current working directory is the
+      directory specified by the dirname attribute of the ancestor
+      video. The vgg256 attribute specifies feature vectors
+      describing the page.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento element obsahuje
+      veškeré informace o jedné stránce PDF dokumentu. Atribut key
+      zadává unikátní identifikátor v rámci předkovského elementu
+      video a atribut number zadává místo, kde se stránka v
+      dokumentu nachází. Atribut filename udává jméno s
+      rasterizovaným obrázkem stránky za předpokladu, že pracovním
+      adresářem je adresář zadaný atributem dirname předkovského
+      elementu video. Atribut vgg256 zadává feature vektory
+      popisující stránku.</xs:documentation>
     </xs:annotation>
-    <xs:attribute name="key" type="xs:string" use="required"/>
-    <xs:attribute name="filename" type="xs:string" use="required"/>
-    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
-    <xs:attribute name="vgg256" type="feature-vector-type" use="required"/>
+    <xs:attribute name="key" type="xs:string" use="required" />
+    <xs:attribute name="filename" type="xs:string"
+    use="required" />
+    <xs:attribute name="number" type="xs:positiveInteger"
+    use="required" />
+    <xs:attribute name="vgg256" type="feature-vector-type"
+    use="required" />
   </xs:complexType>
-
   <xs:simpleType name="feature-vector-type">
     <xs:annotation>
-      <xs:documentation xml:lang="en">
-        This attribute specifies two feature vectors obtained from the
-        256-dimensional last hidden layer of a VGG convolutional neural network
-        (Simonyan and Zisserman, 2015). The first feature vector was obtained
-        from a network trained on the Imagenet dataset, and the second feature
-        vector was obtained from a network trained on the Imagenet and Places2
-        datasets. The feature vectors are stored in a JSON-encoded array.
-      </xs:documentation>
-      <xs:documentation xml:lang="cs">
-        Tento atribut zadává dva feature vektory získané z 256dimenzionální
-        poslední skryté vrsty konvoluční neuronové sítě postavené na
-        architektuře VGG (Simonyan and Zisserman, 2015). První feature vektor
-        byl získán ze sítě trénované na datové sadě Imagenet a druhý feature
-        vektor byl získán ze sítě trénované na datových sadách Imagenet a
-        Places2. Vektory jsou uložené v poli zakódovaném ve formátu JSON.
-      </xs:documentation>
+      <xs:documentation xml:lang="en">This attribute specifies two
+      feature vectors obtained from the 256-dimensional last hidden
+      layer of a VGG convolutional neural network (Simonyan and
+      Zisserman, 2015). The first feature vector was obtained from
+      a network trained on the Imagenet dataset, and the second
+      feature vector was obtained from a network trained on the
+      Imagenet and Places2 datasets. The feature vectors are stored
+      in a JSON-encoded array.</xs:documentation>
+      <xs:documentation xml:lang="cs">Tento atribut zadává dva
+      feature vektory získané z 256dimenzionální poslední skryté
+      vrsty konvoluční neuronové sítě postavené na architektuře VGG
+      (Simonyan and Zisserman, 2015). První feature vektor byl
+      získán ze sítě trénované na datové sadě Imagenet a druhý
+      feature vektor byl získán ze sítě trénované na datových
+      sadách Imagenet a Places2. Vektory jsou uložené v poli
+      zakódovaném ve formátu JSON.</xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:minLength value="1"/>
+      <xs:minLength value="1" />
     </xs:restriction>
   </xs:simpleType>
-
 </xs:schema>
