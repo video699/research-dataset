@@ -376,10 +376,8 @@
         256-dimensional last hidden layer of a VGG convolutional neural network
         (Simonyan and Zisserman, 2015). The first feature vector was obtained
         from a network trained on the Imagenet dataset, and the second feature
-        vector was obtained from a network trained on the Images and Places2
-        datasets. The feature vectors are stored in an object A encoded in JSON
-        with the feature vectors stored as A[0].records[0]._descriptor, and
-        A[1].records[0]._descriptor.
+        vector was obtained from a network trained on the Imagenet and Places2
+        datasets. The feature vectors are stored in a JSON-encoded array.
       </xs:documentation>
       <xs:documentation xml:lang="cs">
         Tento atribut zadává dva feature vektory získané z 256dimenzionální
@@ -387,12 +385,11 @@
         architektuře VGG (Simonyan and Zisserman, 2015). První feature vektor
         byl získán ze sítě trénované na datové sadě Imagenet a druhý feature
         vektor byl získán ze sítě trénované na datových sadách Imagenet a
-        Places2. Vektory jsou uložené v objektu A zakódovaného ve formátu
-        JSON, přičemž vektory jsou přístupné v umístěních
-        A.records[0]._descriptor a A.records[1]._descriptor.
+        Places2. Vektory jsou uložené v poli zakódovaném ve formátu JSON.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
     </xs:restriction>
   </xs:simpleType>
 
