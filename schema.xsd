@@ -175,20 +175,22 @@
       <xs:documentation xml:lang="en">This element contains
       information about a single lit screen that appears on a video
       frame. The xi, yi, i=0, 1, 2, 3, attributes are four
-      coordinates that specify the quadrilateral delineating the
-      frame area occupied by the screen. Be aware that xi, yi may
-      go beyond the video boundaries. The vgg256 attribute
+      coordinates that specify the top left, top right, bottom
+      left, and bottom right corners of a quadrilateral delineating
+      the frame area occupied by the screen. Be aware that xi, yi
+      may go beyond the video boundaries. The vgg256 attribute
       specifies feature vectors describing the contents of the
       screen. The condition attribute specifies the condition of
       what is shown on the screen.</xs:documentation>
       <xs:documentation xml:lang="cs">Tento element obsahuje
       veškeré informace o jednom ozářeném projekčním plátně, které
       se nachází na jednom snímku videozáznamu. Atributy xi, yi,
-      i=0, 1, 2, 3, za dávají rohy čtyřúhelníku, který projekční
-      plátno ohraničuje. Berte na vědomí, že souřadnice mohou
-      přesahovat okraje videa. Atribut vgg256 zadává feature
-      vektory popisující obsah plátna. Atribut condition udává
-      kvalitu toho, co je zobrazeno na ozářeném projekčním
+      i=0, 1, 2, 3, zadávají levý horní, pravý horní, levý dolní a
+      pravý dolní roh čtyřúhelníku, který projekční plátno
+      ohraničuje. Berte na vědomí, že souřadnice mohou přesahovat
+      okraje videa. Atribut vgg256 zadává feature vektory
+      popisující obsah plátna. Atribut condition udává kvalitu
+      toho, co je zobrazeno na ozářeném projekčním
       plátně.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
