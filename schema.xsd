@@ -28,6 +28,14 @@
         </xs:element>
       </xs:sequence>
     </xs:complexType>
+    <xs:unique name="video-dirname">
+      <xs:selector xpath="./video" />
+      <xs:field xpath="@dirname" />
+    </xs:unique>
+    <xs:unique name="video-uri">
+      <xs:selector xpath="./video" />
+      <xs:field xpath="@uri" />
+    </xs:unique>
   </xs:element>
   <xs:complexType name="video-type">
     <xs:annotation>
@@ -61,7 +69,16 @@
           <xs:field xpath="@number" />
         </xs:unique>
       </xs:element>
-      <xs:element name="documents" type="documents-type" />
+      <xs:element name="documents" type="documents-type">
+        <xs:unique name="document-filename">
+          <xs:selector xpath="./document" />
+          <xs:field xpath="@filename" />
+        </xs:unique>
+        <xs:unique name="page-filename">
+          <xs:selector xpath="./document/page" />
+          <xs:field xpath="@filename" />
+        </xs:unique>
+      </xs:element>
     </xs:all>
     <xs:attribute name="dirname" type="xs:string" use="required" />
     <xs:attribute name="uri" type="xs:anyURI" use="required" />
@@ -92,14 +109,24 @@
     <xs:annotation>
       <xs:documentation xml:lang="en">This element contains
       information about all PDF documents that accompany a captured
-      video.</xs:documentation>
+      video. All the documents across the entire dataset are
+      distinct, so the documents from other videos can be used for
+      negative sampling.</xs:documentation>
       <xs:documentation xml:lang="cs">Tento element obsahuje
       veškeré informace o PDF documentech, které doprovází
-      konkrétní videozáznam.</xs:documentation>
+      konkrétní videozáznam. Veškeré dokumenty napříč celou datovou
+      sadou jsou odlišné a je tedy možné použít dokumenty z
+      ostatních videí jako negativní vzorky při
+      trénování.</xs:documentation>
     </xs:annotation>
     <xs:sequence>
       <xs:element name="document" type="document-type"
-      minOccurs="0" maxOccurs="unbounded" />
+      minOccurs="0" maxOccurs="unbounded">
+        <xs:unique name="page-number">
+          <xs:selector xpath="./page" />
+          <xs:field xpath="@number" />
+        </xs:unique>
+      </xs:element>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="document-type">
