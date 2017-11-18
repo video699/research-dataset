@@ -17,22 +17,22 @@
       <xs:sequence>
         <xs:element name="video" type="video-type" minOccurs="0"
         maxOccurs="unbounded">
-          <xs:key name="slide-keys">
+          <xs:key name="page-keys">
             <xs:selector xpath="./documents/document/page" />
             <xs:field xpath="@key" />
           </xs:key>
-          <xs:keyref name="frame-keyrefs" refer="slide-keys">
+          <xs:keyref name="frame-keyrefs" refer="page-keys">
             <xs:selector xpath="./frames/frame/screens/screen/keyrefs/keyref" />
             <xs:field xpath="." />
           </xs:keyref>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
-    <xs:unique name="video-dirname">
+    <xs:unique name="video-dirnames">
       <xs:selector xpath="./video" />
       <xs:field xpath="@dirname" />
     </xs:unique>
-    <xs:unique name="video-uri">
+    <xs:unique name="video-uris">
       <xs:selector xpath="./video" />
       <xs:field xpath="@uri" />
     </xs:unique>
@@ -60,21 +60,21 @@
     </xs:annotation>
     <xs:all>
       <xs:element name="frames" type="frames-type">
-        <xs:unique name="frame-time">
-          <xs:selector xpath="./frame" />
-          <xs:field xpath="@time" />
+        <xs:unique name="frame-filenames">
+          <xs:selector xpath="frame" />
+          <xs:field xpath="@filename" />
         </xs:unique>
-        <xs:unique name="frame-number">
-          <xs:selector xpath="./frame" />
+        <xs:unique name="frame-numbers">
+          <xs:selector xpath="frame" />
           <xs:field xpath="@number" />
         </xs:unique>
       </xs:element>
       <xs:element name="documents" type="documents-type">
-        <xs:unique name="document-filename">
+        <xs:unique name="document-filenames">
           <xs:selector xpath="./document" />
           <xs:field xpath="@filename" />
         </xs:unique>
-        <xs:unique name="page-filename">
+        <xs:unique name="page-filenames">
           <xs:selector xpath="./document/page" />
           <xs:field xpath="@filename" />
         </xs:unique>
