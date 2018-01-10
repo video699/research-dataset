@@ -256,9 +256,9 @@ class Screen(object):
                                 outlier.
                 beyond_bounds   If the screen goes beyond the bounds of the video, it is considered
                                 an outlier.
-                incremental     If the screen has no corresponding fully matching document, it is
-                                considered an outlier.
-                no_match        If the screen has no corresponding matching document, it is
+                incremental     If the screen has no corresponding fully matching document page, it
+                                is considered an outlier.
+                no_match        If the screen has no corresponding matching document page, it is
                                 considered an outlier.
 
             The above parameters fully characterize an outlier.
