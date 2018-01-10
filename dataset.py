@@ -92,7 +92,7 @@ class Video(object):
         self.frames_num = int(element.attrib["frames"])
         self.width = int(element.attrib["width"])
         self.height = int(element.attrib["height"])
-        self.uri = element.attrib["fps"]
+        self.uri = element.attrib["uri"]
         self.documents = []
 
         # Process descendant elements.
