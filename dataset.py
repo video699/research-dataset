@@ -58,7 +58,7 @@ class Dataset(object):
                     len(self.keyrefs))
         LOGGER.info("- %d documents containing %d pages.", len(self.documents), len(self.pages))
 
-    def task1_evaluation_dataset(self, k_folds=FOLDS_NUM):
+    def task1_evaluation_dataset(self, k_folds=FOLDS_NUM, random_state=RANDOM_STATE):
         """Produces an evaluation dataset for task1, subtask A (screen-based document page
         retrieval) and subtask B (no-match screen detection). The method returns a list of videos
         with a number of elements divisible by the provided integer k (parameters `k_folds`),
@@ -66,9 +66,11 @@ class Dataset(object):
 
         Parameters:
             k_folds         The number of folds that will be produced from the dataset.
+            random_state    The random state that will be used to seed the
+                            pseudo-random number generator when shuffling the dataset.
         """
         sample = self.videos[:]
-        random.seed(RANDOM_STATE)
+        random.seed(random_state)
         random.shuffle(sample)
         return array(sample[:len(sample)-len(sample)%k_folds])
 
