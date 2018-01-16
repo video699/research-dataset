@@ -121,6 +121,12 @@ class Video(object):
     def __repr__(self):
         return "Video %s" % self.dirname
 
+    def __eq__(self, other):
+        return isinstance(other, Video) and self.dirname == other.dirname
+
+    def __hash__(self):
+        return self.dirname.__hash__()
+
 class Document(object):
     """ This class represents a document. """
     def __init__(self, dataset, parent, element):
@@ -146,6 +152,12 @@ class Document(object):
     def __repr__(self):
         return "Document %s" % self.filename
 
+    def __eq__(self, other):
+        return isinstance(other, Document) and self.filename == other.filename
+
+    def __hash__(self):
+        return self.filename.__hash__()
+
 class Page(object):
     """ This class represents a page in a document. """
     def __init__(self, dataset, parent, element):
@@ -169,6 +181,12 @@ class Page(object):
     def __repr__(self):
         return "Page %s" % self.filename
 
+    def __eq__(self, other):
+        return isinstance(other, Page) and self.filename == other.filename
+
+    def __hash__(self):
+        return self.filename.__hash__()
+
 class Frame(object):
     """ This class represents a video frame. """
     def __init__(self, dataset, parent, element):
@@ -190,13 +208,19 @@ class Frame(object):
         # Process descendant elements.
         self.screens = []
         self.keyrefs = []
-        for descendant in element.findall(".//screen"):
-            screen = Screen(dataset, self, descendant)
+        for number, descendant in enumerate(element.findall(".//screen")):
+            screen = Screen(dataset, self, descendant, number)
             self.screens.append(screen)
             self.keyrefs.extend(screen.keyrefs)
 
     def __repr__(self):
         return "Frame %s" % self.filename
+
+    def __eq__(self, other):
+        return isinstance(other, Frame) and self.filename == other.filename
+
+    def __hash__(self):
+        return self.filename.__hash__()
 
 # This class specifies a point in the 2D projection space of a video frame.
 Coordinate = namedtuple("Coordinate", ['x', 'y'])
@@ -207,19 +231,21 @@ BoundingQuadrilinear = namedtuple("BoundingQuadrilinear",
 
 class Screen(object):
     """ This class represents a screen on a video frame. """
-    def __init__(self, dataset, parent, element):
+    def __init__(self, dataset, parent, element, number):
         """Constructs the object representation of a screen on a video frame.
 
         Parameters:
             dataset The dataset to which the screen belongs.
             parent  The parent Frame object.
             element The XML element that represents the screen.
+            number  The screen number.
         """
         self.dataset = dataset
         self.frame = parent
         self.video = self.frame.video
 
         # Set own attributes.
+        self.number = number
         self.condition = element.attrib["condition"]
         self.vgg256 = json.loads(element.attrib["vgg256"])
         top_left = Coordinate(int(element.attrib["x0"]), int(element.attrib["y0"]))
@@ -241,10 +267,11 @@ class Screen(object):
         for descendant in element.findall(".//keyref"):
             keyref = KeyRef(self, dataset, descendant)
             self.keyrefs.append(keyref)
-        self.matching_pages = set([keyref.page for keyref in self.keyrefs \
-                                   if keyref.similarity == "full"])
+        self.matching_pages = [keyref.page for keyref in self.keyrefs \
+                               if keyref.similarity == "full"]
         if not self.matching_pages: # If there is no fully matching page, accept any matching page.
-            self.matching_pages = set((keyref.page for keyref in self.keyrefs))
+            self.matching_pages = [keyref.page for keyref in self.keyrefs]
+        assert len(set(self.matching_pages)) == len(self.matching_pages)
 
     def is_outlier(self, windowed=True, obstacle=True, beyond_bounds=True, incremental=True,
                    no_match=True):
@@ -278,7 +305,14 @@ class Screen(object):
         return False
 
     def __repr__(self):
-        return "%s, screen #%d" % (self.frame, self.frame.screens.index(self)+1)
+        return "%s, screen #%d" % (self.frame, self.number + 1)
+
+    def __eq__(self, other):
+        return isinstance(other, Screen) and self.frame == other.frame \
+            and self.number == other.number
+
+    def __hash__(self):
+        return (self.frame, self.number).__hash__()
 
 class KeyRef(object):
     """
@@ -302,3 +336,9 @@ class KeyRef(object):
 
     def __repr__(self):
         return "KeyRef: %s <-> %s" % (self.video, self.page)
+
+    def __eq__(self, other):
+        return isinstance(other, KeyRef) and self.video == other.video and self.page == other.page
+
+    def __hash__(self):
+        return (self.video, self.page).__hash__()
