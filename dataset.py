@@ -298,7 +298,8 @@ class Screen(object):
             return True
         if beyond_bounds and self.is_beyond_bounds:
             return True
-        if incremental and not [keyref for keyref in self.keyrefs if keyref.similarity == "full"]:
+        if incremental and self.keyrefs \
+                and not [keyref for keyref in self.keyrefs if keyref.similarity == "full"]:
             return True
         if no_match and not self.keyrefs:
             return True
